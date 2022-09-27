@@ -1,0 +1,30 @@
+.hero {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./images/hawaii.jpg"); 
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    width: 100%;
+    margin: 0;
+}
+
+.card-adjust-size {
+    height: 40vh;
+}
+
+.image-adjust {
+    height: 50vh;
+    width: auto;
+}
+
+.footer {
+    background-color: #193249;
+    height: 100px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
