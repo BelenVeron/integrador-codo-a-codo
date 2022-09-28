@@ -14,7 +14,7 @@
 
 .image-adjust {
     height: 50vh;
-    width: auto;
+    width: 100%;
 }
 
 .footer {
@@ -27,4 +27,34 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    color: white;
+    text-decoration: none;
 }
+
+link:hover {
+    text-decoration: none;
+}
+  
+link:active {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 780px) {
+    .buttons-responsive {
+        align-self: center;
+        width: 80%;
+    }
+
+    .gallery-container {
+       flex-direction: column;
+    }
+   
+    .gallery-item {
+        width: 100% !important;
+        height: 400px;
+    }
+   
+    .card-responsive {
+        padding: 0px 70px;
+    }
+ }
